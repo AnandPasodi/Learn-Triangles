@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #60a5fa;
+  --secondaryColor: #212738;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #111827;
+  padding-left: 2rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem auto;
+  width: 50vw;
+  height: 90vh;
+  background-color: #60a5fa;
+  border-radius: 4px;
+}
+section h1 {
+  text-align: center;
+  margin: 2rem;
+}
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.1rem;
+  letter-spacing: 1px;
+  margin: 0.5rem;
+}
+.angle-input {
+  width: 25vw;
+  height: 8vh;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: rgb(66, 66, 66);
+}
+button {
+  padding: 10px 35px;
+  margin: 1rem 1rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #000;
+  transition: 2s all;
+}
+button:hover {
+  background-color: #1b1b1b;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.quiz-form {
+  margin: 1rem auto;
+}
+.question-container {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.quiz-input {
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.side-input {
+  width: 25vw;
+  height: 8vh;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: rgb(66, 66, 66);
+}
+.area-input {
+  width: 25vw;
+  height: 8vh;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 4px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: rgb(66, 66, 66);
+}
+p {
+  padding: 1rem;
+}
